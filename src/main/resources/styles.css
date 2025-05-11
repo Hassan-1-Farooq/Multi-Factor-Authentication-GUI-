@@ -1,0 +1,44 @@
+/* CSS styles for the JavaFX application */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-background-color: #f1f3f6;
+}
+
+.dialog-card {
+    -fx-background-color: white;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 15, 0, 0, 5);
+    -fx-padding: 25;
+    -fx-spacing: 18;
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #444;
+    -fx-font-weight: 600;
+}
+
+.text-field,
+.password-field,
+.combo-box {
+    -fx-background-color: #fefefe;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 7 10 7 10;
+    -fx-font-size: 13px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #0078d7, #005a9e);
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-padding: 6 14 6 14;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #3399ff, #1a73e8);
+}
